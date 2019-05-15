@@ -12,7 +12,7 @@ ORIG_IFS=$IFS
 
 if [[ -z "$KAFKA_ZOOKEEPER_CONNECT" ]]; then
     echo "ERROR: missing mandatory config: KAFKA_ZOOKEEPER_CONNECT"
-    exit 1
+    exit 1 
 fi
 
 if [[ -z "$KAFKA_PORT" ]]; then

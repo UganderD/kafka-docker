@@ -14,5 +14,5 @@ if [[ ! $(curl -s -f -I "${url}") ]]; then
     url="https://archive.apache.org/dist/kafka/${KAFKA_VERSION}/${FILENAME}"
 fi
 
-echo "Downloading Kafka from $url"
+echo "Downloading Kafka from $url" 
 wget "${url}" -O "/tmp/${FILENAME}"
